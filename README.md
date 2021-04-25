@@ -1,9 +1,14 @@
 # Final-Group-Project-
-Shared repository for final group project
 
 ## Database Storage
 
-For our analysis, we will use 3 different dataset : Worl happiness, Freedom and life expectancy.
+For our analysis, we will be using 3 different dataset : Worl happiness, Freedom and life expectancy.
+
+![2018](https://github.com/GloriaY007/Final-Group-Project-/blob/Assitan_C/Resources/2018.csv?raw=true)
+
+![Life Expectancy Data](https://github.com/GloriaY007/Final-Group-Project-/blob/Assitan_C/Resources/Life Expectancy Data.csv?raw=true)
+
+![hfi_cc_2018](https://github.com/GloriaY007/Final-Group-Project-/blob/Assitan_C/Resources/hfi_cc_2018.csv?raw=true)
 
 We've decided to choose Postgres database for storage. A private RDS database was first set up on AWS and access was shared with team members. 
 
