@@ -1,7 +1,9 @@
 # Final-Group-Project-
 Shared repository for final group project
 
-## Database Storage 
+## Database Storage
+
+For our analysis, we will use 3 different dataset : Worl happiness, Freedom and life expectancy.
 
 We've decided to choose Postgres database for storage. A private RDS database was first set up on AWS and access was shared with team members. 
 
@@ -18,7 +20,7 @@ Python will be used as database interface for scrapping and update.
 
 ## Connection String
 
-We used PSYCOPG2  as PostgresSQL adapter to tets connectivity with Python. 
+We will use PSYCOPG2  as PostgresSQL adapter to tets connectivity with Python. 
 
 ![Connection_string](https://github.com/GloriaY007/Final-Group-Project-/blob/Assitan_C/ScreenShots/Connection_string.PNG?raw=true)
 
