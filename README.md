@@ -8,7 +8,8 @@ We've decided to choose Postgres database for storage. A private RDS database wa
 
 ![AWS](https://github.com/GloriaY007/Final-Group-Project-/blob/Assitan_C/ScreenShots/AWS.png?raw=true)
 
-![postgres](https://github.com/GloriaY007/Final-Group-Project-/blob/Assitan_C/ScreenShots/postgres.png?raw=true)
+
+![Postgres](https://github.com/GloriaY007/Final-Group-Project-/blob/Assitan_C/ScreenShots/Postgres.png?raw=true)
 
 
 
