@@ -5,9 +5,9 @@ Shared repository for final group project
 
 We've decided to choose Postgres database for storage. A private RDS database was first set up on AWS and access was shared with team members. 
 
+![Risk Escalation Process](https://github.com/GloriaY007/Final-Group-Project-/blob/GloriaY-S/Risk%20Ecalation%20Process.png)
 
-
-![ERD](https://github.com/GloriaY007/Final-Group-Project-/blob/Assitan_C/Resources/ERD.png)
+![ERD](https://github.com/GloriaY007/Final-Group-Project-/blob/Assitan_C/Resources/ERD.png?raw=true)
 
 
 
