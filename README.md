@@ -45,7 +45,7 @@ This team recognize that risk and issue may arise trough the course of our colla
 The risk register above will be periodically updated to list any issue that may have come up. For high propability and high impact issue that have no mitigation in place, the team will:
 1. Discuss the issue collectively on Slack and/or contact each other directly via cell phone (if there is no reaction from other party).
 2. Contact TAs for direct support.
-3. Ecalate to Teacher for immediate visibility and resolution.
+3. Escalate to Teacher for immediate visibility and resolution.
 
 ### Segment I: Sketch It Out!
 
