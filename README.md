@@ -5,9 +5,9 @@ Shared repository for final group project
 
 We've decided to choose Postgres database for storage. A private RDS database was first set up on AWS and access was shared with team members. 
 
-![AWS](https://github.com/GloriaY007/Final-Group-Project-/blob/Assitan_C/ScreenShots/AWS.png?raw=true)
+![AWS](https://github.com/GloriaY007/Final-Group-Project-/blob/Assitan_C/ScreenShots/AWS.PNG?raw=true)
 
-![Postgres](https://github.com/GloriaY007/Final-Group-Project-/blob/Assitan_C/ScreenShots/Postgres.png?raw=true)
+![Postgres](https://github.com/GloriaY007/Final-Group-Project-/blob/Assitan_C/ScreenShots/Postgres.PNG?raw=true)
 
 ## Database Interface
 Python will be used as database interface for scrapping and update.
@@ -20,7 +20,7 @@ Python will be used as database interface for scrapping and update.
 
 We used PSYCOPG2  as PostgresSQL adapter to tets connectivity with Python. 
 
-![Connection_string](https://github.com/GloriaY007/Final-Group-Project-/blob/Assitan_C/ScreenShots/Connection_string.png?raw=true)
+![Connection_string](https://github.com/GloriaY007/Final-Group-Project-/blob/Assitan_C/ScreenShots/Connection_string.PNG?raw=true)
 
 
 
