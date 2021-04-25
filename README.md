@@ -5,7 +5,9 @@ Shared repository for final group project
 
 We've decided to choose Postgres database for storage. A private RDS database was first set up on AWS and access was shared with team members. 
 
-![ERD](https://github.com/GloriaY007/Final-Group-Project-/blob/Assitan_C/ERD.png)
+
+
+![ERD](https://github.com/GloriaY007/Final-Group-Project-/blob/Assitan_C/Resources/ERD.png)
 
 
 
