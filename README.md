@@ -3,6 +3,20 @@ Shared repository for final group project
 
 ## Presentation
 
+#### Selected topic
+The team would like to explore the topic of *Happiness and its contributing factors*
+
+#### Reason they selected the topic 
+The team selected this topic because we were trying to find what defined happiness. We were also looking for a good and clean dataset with solid features and information to train a machine on.
+
+#### Description of the source of data
+The main dataset being used is a collection of data from the [World Happiness Report](https://www.kaggle.com/unsdsn/world-happiness). It is a landmark survey of the state of global happiness. The data set has a collection of indicators on more than **140 countries** around the world including happiness rank, happiness score on a scale of 0 to 10, standard error, and more… The data set includes reports from 2015 to 2019. 
+
+We will also be using the [World Bank Life Expectancy](https://data.worldbank.org/indicator/SP.DYN.LE00.IN) data set and the [Human Freedom Index](https://www.kaggle.com/gsutters/the-human-freedom-index), to compare against (for the years that align with our main data set). 
+
+#### Questions they hope to answer with the data
+We want to find which factors influence happiness within a country and we would also like to found. out how to predict the happiness scores, if it is at all possible to do so.
+
 ## Communication Plan
 
 The communication plan will be a guiding document outlining our means of communication, and our risk and issues management. It also outlines the team structure, the roles and responsibilities of each team member per segment, and our approval process for our work.
@@ -32,15 +46,29 @@ In addition to actively using the designated Slack channel created for Group 2 f
 
 Team members unable to attend these group work opportunities use the Slack channel to notify other members of progress, issues, or availability.
 
+### Decision Log
+
+A decision will also be used and updated, to showcase and record point of consensus:
+
+| Date Recorded | Decision Description |
+| ------------- | ------------- |
+| 20 Apr 21  | Final project topic to be about **Happiness**. Selected [World Happiness Report](https://www.kaggle.com/unsdsn/world-happiness) has the main database for the project |
+| 22 Apr 21  | Responded, as a team, to *Presentation* topics |
+| 22 Apr 21  | Team decided to find correlation between life expectancy, general sense of freedom, and its effect on a country happiness |
+| 22 Apr 21   | Team decided to use multiple dataset (focusing on 2018 and 209 for now) to compare World Happiness Report database with life expectency and Human Freedom Index   |
+| 23 Apr 21   | Diana created the list of technologies to use for Segment I|
+| 23 Apr 21  | Assitan dveloped ERD |
+
+
 #### Risk and Issue Management
 
 This team recognize that risk and issue may arise trough the course of our collaboration. The team has listed below potential problems that might arise during the project, their causes, symptoms, consequences, and possible solutions.
 
 | Date Recorded | Risk Description | Probability | Impact | Mitigation Plan |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| 04-22-2021  | Choosing a database that provides a poor machine learning output  | Medium | High  | Consulting TAs to guide us at each step of the process |
-| 04-22-2021  | A team member feeling overworked or underworked  | Medium  | Medium  | For each segment, the team agrees to a breakdown of the deliverables and offer/receives support where needed   |
-
+| 22 Apr 21  | Choosing a database that provides a poor machine learning output  | Medium | High  | Consulting TAs to guide us at each step of the process |
+| 22 Apr 21  | A team member feeling overworked or underworked  | Medium  | Medium  | For each segment, the team agrees to a breakdown of the deliverables and offer/receives support where needed   |
+     
 
 The risk register above will be periodically updated to list any issue that may have come up. For high propability and high impact issue that have no mitigation in place, the team will:
 
@@ -50,14 +78,14 @@ The risk register above will be periodically updated to list any issue that may 
 
 During the 1st Segment,  ***The Ladies*** project team, will be focused on outlining the structure of the overall group project. During this phase, Gloria will be a square, Lynn will be a triangle, Assitan will be a circle, and Diana will be an X.
 
-Here is a list of deliverables and their assigned reponsible team member:
-- [ ] Topic for the project 
-- [ ] Read Me @GloriaY007
-     - [ ] Communication Protocol
+Here is a list of deliverables for *Sunday, April 25, 2021* and their assigned reponsible team member:
+- [x] Topic for the project 
+- [x] Read Me by @GloriaY007
+     - [x] Communication Protocol
      - [ ] Repository Management
-- [ ] Identification of technology to use @borkard
-- [ ] Exploratory data analysis @assaci
-- [ ] Mockup of machine learning @lynnokang
+- [x] Identification of technology to use by @borkard
+- [x] Exploratory data analysis by @assaci
+- [ ] Mockup of machine learning by @lynnokang
 
 The team also collectively answered questions regarding the ***Presentation*** (see above). 
 
