@@ -89,17 +89,18 @@ Here is a list of deliverables for *Sunday, April 25, 2021* and their assigned r
 - [x] Mockup of machine learning by @lynnokang
 
 #### Technology to be used:
-**Data Cleaning and Analysis**
-   Pandas will be used to clean the data and perform an exploratory analysis. Further analysis will be completed using Python.
+##### Data Cleaning and Analysis
+Pandas will be used to clean the data and perform an exploratory analysis. Further analysis will be completed using Python. Matplotlib will be used to visualize the results of our analysis. Jupyter notebook will be used throughout as the platform for analysis.
 
-**Database Storage**
-   PostgreSQL is the database we will use to store our data and pgAdmin will be used as an interface to query the data.
+##### Database Storage
+PostgreSQL is the database we will use to store our data and pgAdmin will be used as an interface to query the data. The module psycopg2 will be used to connect Python with Postgres.
 
-**Machine Learning**
-   SciKitLearn is the machine library we'll be using to create a classifier. We plan on using a linear regression model and either ridge regression or lasso regression.
+##### Machine Learning
+SciKitLearn is the machine library we'll be using to create a classifier. We plan on using a linear regression model and either ridge regression or lasso regression. Our train-test-split will follow the default standard of 75% of the data for training and 25% for testing.
 
-**Dashboard**
-   Tableau will be used to create a dashboard to display the results of our analysis.
+##### Dashboard
+Tableau will be used to create a dashboard to display the results of our analysis. A ReadMe on GitHub will also be kept updated with all text and visuals throughout the project.
+
 
 #### Exploratory Data Analysis (ERD)
 ## Database Storage Set Up 
