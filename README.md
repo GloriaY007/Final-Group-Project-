@@ -33,7 +33,7 @@ The team structure is modeled around **four (4) roles**. The roles will be rotat
 
 The members composing this team are:
 - Assitan Cissé
-- Dian Borkar
+- Diana Borkar
 - Merelynn (Lynn) Okang
 - Gloria Yahouedeou
 
