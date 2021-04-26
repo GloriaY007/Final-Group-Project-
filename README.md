@@ -58,6 +58,7 @@ A decision will also be used and updated, to showcase and record point of consen
 | 22 Apr 21   | Team decided to use multiple dataset (focusing on 2018 and 209 for now) to compare World Happiness Report database with life expectency and Human Freedom Index   |
 | 23 Apr 21   | Diana created the list of technologies to use for Segment I|
 | 23 Apr 21  | Assitan dveloped ERD |
+| 25 Apr 21  | Team merged deliverables onto the main branch (ERD, Database, Mockup Machine learning, Technology to be used) |
 
 
 #### Risk and Issue Management
@@ -82,10 +83,10 @@ Here is a list of deliverables for *Sunday, April 25, 2021* and their assigned r
 - [x] Topic for the project 
 - [x] Read Me by @GloriaY007
      - [x] Communication Protocol
-     - [ ] Repository Management
+     - [x] Repository Management
 - [x] Identification of technology to use by @borkard
 - [x] Exploratory data analysis by @assaci
-- [ ] Mockup of machine learning by @lynnokang
+- [x] Mockup of machine learning by @lynnokang
 
 #### Technology to be used:
 **Data Cleaning and Analysis**
