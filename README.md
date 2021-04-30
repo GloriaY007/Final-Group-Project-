@@ -59,6 +59,8 @@ A decision will also be used and updated, to showcase and record point of consen
 | 23 Apr 21   | Diana created the list of technologies to use for Segment I|
 | 23 Apr 21  | Assitan dveloped ERD |
 | 25 Apr 21  | Team merged deliverables onto the main branch (ERD, Database, Mockup Machine learning, Technology to be used) |
+| 29 Apr 21  | Used pgAdmin 4 to create a database using our 3 dataset |
+| 29 Apr 21  | Modified Final_Project Machine_Learning Mock_up.ipynb file to connect to database |
 
 
 #### Risk and Issue Management
@@ -77,7 +79,7 @@ The risk register above will be periodically updated to list any issue that may 
 
 ### Segment I: Sketch It Out!
 
-During the 1st Segment,  ***The Ladies*** project team, will be focused on outlining the structure of the overall group project. During this phase, Gloria will be a square, Lynn will be a triangle, Assitan will be a circle, and Diana will be an X.
+During the 1st Segment,  ***The Ladies*** project team, will be focused on outlining the structure of the overall group project. During this phase, Gloria will be a :black_square_button:, Lynn will be a :small_red_triangle:, Assitan will be a :red_circle:, and Diana will be an :heavy_multiplication_x:. 
 
 Here is a list of deliverables for *Sunday, April 25, 2021* and their assigned reponsible team member:
 - [x] Topic for the project 
@@ -132,6 +134,19 @@ For our analysis, we will be using 3 different dataset from Worl Happiness, Free
 The team also collectively answered questions regarding the ***Presentation*** (see above). 
 
 ### Segment II: Build the Pieces
+
+During the 2nd Segment, the project team, will be focused on building the separate pieces that compose the group project. During this phase, Gloria will be a :red_circle:, Lynn will be a :small_red_triangle:, Assitan will be a :heavy_multiplication_x:, and Diana will be a :black_square_button:.
+
+Here is a list of deliverables for *Sunday, May 2, 2021* and their assigned reponsible team member:
+- [x] Topic for the project 
+- [x] Continuing with analysis and creating visuals to accompany the data story by @GloriaY007
+     - [x] Presentation slides
+     - [x] Description of the data exploration phase of the project
+     - [ ] Description of the analysis phase of the project
+- [x] Refining of the machine learning model we'll be using (train and test) by @borkard
+- [x] Outlining and beginning the work on a dashboard to house your final project. Checking and testing the work completed against the rubric by @assaci
+- [x] Transforming of the mockup database into a full database that integrates with our work by @lynnokang
+
 
 ### Segment III: Plug It In
 
