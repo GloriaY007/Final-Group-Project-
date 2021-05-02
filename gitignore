@@ -1,5 +1,4 @@
 # Byte-compiled / optimized / DLL files
-AWS_Password
 __pycache__/
 *.py[cod]
 *$py.class
