@@ -22,6 +22,14 @@ We will create 2 charts to show the 10 happiest and least happiest countries for
 
 ![Least_Happiest](https://github.com/GloriaY007/Final-Group-Project-/blob/Segment_2_Assitan_X/Least_Happiest.PNG?raw=true)
 
+## Correlation between data (still working on the chart)
+
+We will create a chart to show the correlation between data and see which data has more impact on happiness score.
+(Happiness score, economy_gdp_per_capita, family, health_life_expectancy,	freedom,	trust_government_corruption, generosity, pf_movement,	pf_religion,	pf_association,	pf_expression	pf_identity	pf_score,	ef_government,	ef_legal	and ef_money)
+
+
+ 
+
 
 
 
