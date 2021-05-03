@@ -16,6 +16,10 @@ Our merged dataset includes 116 countries from 2015 and 116 countries from 2016.
 ## 10 happiest Countries and 10 least happiest countries 
 We will create 2 charts to show the 10 happiest and least happiest countries for both 2015 and 2016. 
 
+![Happiest](https://github.com/GloriaY007/Final-Group-Project-/blob/Segment_2_Assitan_X/[Happiest.PNG?raw=true)
+
+
+![Least_Happiest](https://github.com/GloriaY007/Final-Group-Project-/blob/Segment_2_Assitan_X/[Happiest.PNG?raw=true)
 
 
 
