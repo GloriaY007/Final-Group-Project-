@@ -8,7 +8,7 @@ We will be using Tableau to create a storyboard of a dashboard to display data f
 
 ## Happiness Score Per Country
 
-Our merged dataset includes 116 countries from 2015 and 116 countries from 2016. In addition, the countries are classified into regions. For our storyboard, we've already created an interactive world map that can be filtered on the country name, year, region, and happiness score. 
+Our merged dataset includes countries from 2015 and 2016. In addition, the countries are classified into regions. For our storyboard, we've already created an interactive world map that can be filtered on the country name, year, region, and happiness score. 
 
 ![Happiness_Map](https://github.com/GloriaY007/Final-Group-Project-/blob/Segment_2_Assitan_X/Happiness_Map.PNG?raw=true)
 
