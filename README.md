@@ -1,52 +1,3 @@
-<<<<<<< HEAD
-# Final-Group-Project-Segment-2
-
-# Dashboard
-
-We will be using Tableau to create a storyboard of a dashboard to display data findings. For our analysis we are currently working with 3 different datasets from 2015 and 2016: World Happiness Report, Human Freedom Index, and Life expectancy Report. We've already merged the dataset into a dataframe in Pandas. The Dataframe was exported as a CSV file then loaded to Tableau Public. 
-
-# Storyboard
-
-## Happiness Score Per Country
-
-Our merged dataset includes countries from 2015 and 2016. In addition, the countries are classified into regions. For our storyboard, we've already created an interactive world map that can be filtered on the country name, year, region, and happiness score. 
-
-![Happiness_Map](https://github.com/GloriaY007/Final-Group-Project-/blob/Segment_2_Assitan_X/Happiness_Map.PNG?raw=true)
-
-
-## 10 happiest Countries and 10 least happiest countries 
-
-We will create 2 charts to show the 10 happiest and least happiest countries for both 2015 and 2016. 
-
-![Happiest](https://github.com/GloriaY007/Final-Group-Project-/blob/Segment_2_Assitan_X/Happiest.PNG?raw=true)
-
-
-![Least_Happiest](https://github.com/GloriaY007/Final-Group-Project-/blob/Segment_2_Assitan_X/Least_Happiest.PNG?raw=true)
-
-## Correlation between data (still working on the chart)
-
-We will create a chart to show the correlation between data and see which data has more impact on happiness score.
-(Happiness score, economy_gdp_per_capita, family, health_life_expectancy,	freedom,	trust_government_corruption, generosity, pf_movement,	pf_religion,	pf_association,	pf_expression	pf_identity	pf_score,	ef_government,	ef_legal	and ef_money)
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
 #### Description of the source of data
 The main dataset being used is a collection of data from the [World Happiness Report](https://www.kaggle.com/unsdsn/world-happiness). It is a landmark survey of the state of global happiness. The data set has a collection of indicators on more than **140 countries** around the world including happiness rank, happiness score on a scale of 0 to 10, standard error, and more… The data set includes reports from 2015 to 2019. 
 
@@ -200,6 +151,37 @@ For our data, our group chose to use a supervised linear regression machine lear
 
 
 ### Segment III: Plug It In
+
+# Final-Group-Project-Segment-2
+
+# Dashboard
+
+We will be using Tableau to create a storyboard of a dashboard to display data findings. For our analysis we are currently working with 3 different datasets from 2015 and 2016: World Happiness Report, Human Freedom Index, and Life expectancy Report. We've already merged the dataset into a dataframe in Pandas. The Dataframe was exported as a CSV file then loaded to Tableau Public. 
+
+# Storyboard
+
+## Happiness Score Per Country
+
+Our merged dataset includes countries from 2015 and 2016. In addition, the countries are classified into regions. For our storyboard, we've already created an interactive world map that can be filtered on the country name, year, region, and happiness score. 
+
+![Happiness_Map](https://github.com/GloriaY007/Final-Group-Project-/blob/Segment_2_Assitan_X/Happiness_Map.PNG?raw=true)
+
+
+## 10 happiest Countries and 10 least happiest countries 
+
+We will create 2 charts to show the 10 happiest and least happiest countries for both 2015 and 2016. 
+
+![Happiest](https://github.com/GloriaY007/Final-Group-Project-/blob/Segment_2_Assitan_X/Happiest.PNG?raw=true)
+
+
+![Least_Happiest](https://github.com/GloriaY007/Final-Group-Project-/blob/Segment_2_Assitan_X/Least_Happiest.PNG?raw=true)
+
+## Correlation between data (still working on the chart)
+
+We will create a chart to show the correlation between data and see which data has more impact on happiness score.
+(Happiness score, economy_gdp_per_capita, family, health_life_expectancy,	freedom,	trust_government_corruption, generosity, pf_movement,	pf_religion,	pf_association,	pf_expression	pf_identity	pf_score,	ef_government,	ef_legal	and ef_money)
+
+
 
 ### Segment IV: Put It All Together
 
