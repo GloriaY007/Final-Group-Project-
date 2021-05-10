@@ -131,7 +131,7 @@ Here is a list of deliverables for *Sunday, May 2, 2021* and their assigned repo
 - [x] Continuing with analysis and creating visuals to accompany the data story by @GloriaY007
      - [x] Presentation slides
      - [x] Description of the data exploration phase of the project
-     - [ ] Description of the analysis phase of the project
+     - [x] Description of the analysis phase of the project
 - [x] Refining of the machine learning model we'll be using (train and test) by @borkard
 - [x] Outlining and beginning the work on a dashboard to house your final project. Checking and testing the work completed against the rubric by @assaci
 - [x] Transforming of the mockup database into a full database that integrates with our work by @lynnokang
@@ -148,11 +148,6 @@ Scikit-Learn's train_test_split function was used to split the data into random 
 
 #### Explanation of model choice, including limitations and benefits.
 For our data, our group chose to use a supervised linear regression machine learning model to predict the happiness score of a country based on the features in the dataset. The benefits of using a linear regression model are that it will be able to predict the happiness score, a continuous variable,  based on the features of the data. A limitation of the linear regression model is that is assumes a linear relationship between the features and target and could miss some outliers or actual results that are not directly correlated.
-
-
-### Segment III: Plug It In
-
-# Final-Group-Project-Segment-2
 
 # Dashboard
 
@@ -180,6 +175,19 @@ We will create 2 charts to show the 10 happiest and least happiest countries for
 
 We will create a chart to show the correlation between data and see which data has more impact on happiness score.
 (Happiness score, economy_gdp_per_capita, family, health_life_expectancy,	freedom,	trust_government_corruption, generosity, pf_movement,	pf_religion,	pf_association,	pf_expression	pf_identity	pf_score,	ef_government,	ef_legal	and ef_money)
+
+### Segment III: Plug It In
+
+During the 3rd Segment, the project team, will be focused on pluging in the pieces we have put together. It involves wrapping up the analysis and content, and if needed, continuing to refine our code (including machine learning and database integration) and the images we'll include in our presentation for the group project. During this phase, Gloria will be a :small_red_triangle:, Lynn will be a :heavy_multiplication_x:, Assitan will be a :red_circle:, and Diana will be a :black_square_button:.
+
+Here is a list of deliverables for *Sunday, May 9, 2021* and their assigned reponsible team member:
+- [x] Continue to develop and refine the code for your analysis (Team) 
+- [x] Create a draft presentation to share with your class by @GloriaY007
+- [x] Complete peer reviews on the code by @borkard
+- [x] Create a dashboard to display your findings by @assaci
+- [x] Perform a quality assurance check on project deliverables against rubric requirements, and test the code by @lynnokang
+
+## Draft Presentation
 
 
 
