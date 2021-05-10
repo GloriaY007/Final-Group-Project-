@@ -4,21 +4,21 @@ The main dataset being used is a collection of data from the [World Happiness Re
 We will also be using the [World Bank Life Expectancy](https://data.worldbank.org/indicator/SP.DYN.LE00.IN) data set and the [Human Freedom Index](https://www.kaggle.com/gsutters/the-human-freedom-index), to compare against (for the years that align with our main data set). 
 
 #### Questions they hope to answer with the data
-We want to find which factors influence happiness within a country and we would also like to found. out how to predict the happiness scores, if it is at all possible to do so.
+We want to find which factors influence happiness within a country and we would also like to foind out how to predict the happiness scores, if it is at all possible to do so.
 
 ## Communication Plan
 
 The communication plan will be a guiding document outlining our means of communication, and our risk and issues management. It also outlines the team structure, the roles and responsibilities of each team member per segment, and our approval process for our work.
 
-### Communications Tools for "The Ladies" a.k.a Group 2 project team
+### Communications Tools for "The Ladies" a.k.a Group 2 Project Team
 
 #### Team Structure
 
 The team structure is modeled around **four (4) roles**. The roles will be rotated troughout the lenght of the project amongst the four (4) students composing the team. The roles are structured as explained below:
-- **Square**: The team member in the square role will be responsible for the repository.
-- **Triangle**: The member in the triangle role will create a mockup of a machine learning model. This can even be a diagram that explains how it will work concurrently with the rest of the project steps.
-- **Circle**: The member in the circle role will create a mockup of a database with a set of sample data, or even fabricated data. This will ensure the database will work seamlessly with the rest of the project.
-- **X**: The member in the X role will decide which technologies will be used for each step of the project
+- **Square** :black_square_button: : The team member in the square role will be responsible for the repository.
+- **Triangle** :small_red_triangle: : The member in the triangle role will create a mockup of a machine learning model. This can even be a diagram that explains how it will work concurrently with the rest of the project steps.
+- **Circle** :red_circle: : The member in the circle role will create a mockup of a database with a set of sample data, or even fabricated data. This will ensure the database will work seamlessly with the rest of the project.
+- **X** :heavy_multiplication_x: : The member in the X role will decide which technologies will be used for each step of the project
 
 The members composing this team are:
 - Assitan Cissé
@@ -50,6 +50,7 @@ A decision will also be used and updated, to showcase and record point of consen
 | 25 Apr 21  | Team merged deliverables onto the main branch (ERD, Database, Mockup Machine learning, Technology to be used) |
 | 29 Apr 21  | Used pgAdmin 4 to create a database using our 3 dataset |
 | 29 Apr 21  | Modified Final_Project Machine_Learning Mock_up.ipynb file to connect to database |
+| 09 May 21  | Completed most deliverables and focusing on presentation. Need to control main branch submissions |
 
 
 #### Risk and Issue Management
@@ -94,7 +95,12 @@ Tableau will be used to create a dashboard to display the results of our analysi
 
 
 #### Exploratory Data Analysis (ERD)
-## Database Storage Set Up 
+
+##### ERD
+
+![ERD](https://github.com/GloriaY007/Final-Group-Project-/blob/Assitan_C/ScreenShots/ERD.png?raw=true)
+
+##### Database Storage Set Up 
 PostgreSQL will be used for database storage. 
 - Happiness RDS instance was already set up in ASW.The database was made public so everyone can have access.
 - A new server happiness and a database Final_ Project were created on PostgreSQL. 
@@ -104,21 +110,15 @@ PostgreSQL will be used for database storage.
 
 ![Postgres](https://github.com/GloriaY007/Final-Group-Project-/blob/Assitan_C/ScreenShots/Postgres.PNG?raw=true)
 
-## Connection String
+#### Connection String
 We will use PSYCOPG2  as PostgresSQL adapter to test connectivity with Python. 
 
 ![Connection_string](https://github.com/GloriaY007/Final-Group-Project-/blob/Assitan_C/ScreenShots/Connection_string.PNG?raw=true)
 
-## ERD
-
-![ERD](https://github.com/GloriaY007/Final-Group-Project-/blob/Assitan_C/ScreenShots/ERD.png?raw=true)
-
-
-## Database Interface
-For our analysis, we will be using 3 different dataset from Worl Happiness, Freedom and Life Expectancy reports. The dataset will be loaded as csv files in Python. We will create 3 different dataframes : Happiness, Freedom and Life Expectancy, then merge them into one single dataframe. We will clean and preprocess the new dataframe then create our machine learning model for training.  
+### Database Interface
+For our analysis, we will be using 3 different dataset from World Happiness, Freedom and Life Expectancy reports. The dataset will be loaded as csv files in Python. We will create 3 different dataframes : Happiness, Freedom and Life Expectancy, then merge them into one single dataframe. We will clean and preprocess the new dataframe then create our machine learning model for training.  
 
 #### Mockup of machine learning
-
 
 The team also collectively answered questions regarding the ***Presentation*** (see above). 
 
@@ -149,20 +149,20 @@ Scikit-Learn's train_test_split function was used to split the data into random 
 #### Explanation of model choice, including limitations and benefits.
 For our data, our group chose to use a supervised linear regression machine learning model to predict the happiness score of a country based on the features in the dataset. The benefits of using a linear regression model are that it will be able to predict the happiness score, a continuous variable,  based on the features of the data. A limitation of the linear regression model is that is assumes a linear relationship between the features and target and could miss some outliers or actual results that are not directly correlated.
 
-# Dashboard
+### Dashboard
 
 We will be using Tableau to create a storyboard of a dashboard to display data findings. For our analysis we are currently working with 3 different datasets from 2015 and 2016: World Happiness Report, Human Freedom Index, and Life expectancy Report. We've already merged the dataset into a dataframe in Pandas. The Dataframe was exported as a CSV file then loaded to Tableau Public. 
 
-# Storyboard
+#### Storyboard
 
-## Happiness Score Per Country
+#### Happiness Score Per Country
 
 Our merged dataset includes countries from 2015 and 2016. In addition, the countries are classified into regions. For our storyboard, we've already created an interactive world map that can be filtered on the country name, year, region, and happiness score. 
 
 ![Happiness_Map](https://github.com/GloriaY007/Final-Group-Project-/blob/Segment_2_Assitan_X/Happiness_Map.PNG?raw=true)
 
 
-## 10 happiest Countries and 10 least happiest countries 
+#### 10 happiest Countries and 10 least happiest countries 
 
 We will create 2 charts to show the 10 happiest and least happiest countries for both 2015 and 2016. 
 
@@ -171,7 +171,7 @@ We will create 2 charts to show the 10 happiest and least happiest countries for
 
 ![Least_Happiest](https://github.com/GloriaY007/Final-Group-Project-/blob/Segment_2_Assitan_X/Least_Happiest.PNG?raw=true)
 
-## Correlation between data (still working on the chart)
+#### Correlation between data (still working on the chart)
 
 We will create a chart to show the correlation between data and see which data has more impact on happiness score.
 (Happiness score, economy_gdp_per_capita, family, health_life_expectancy,	freedom,	trust_government_corruption, generosity, pf_movement,	pf_religion,	pf_association,	pf_expression	pf_identity	pf_score,	ef_government,	ef_legal	and ef_money)
@@ -194,4 +194,5 @@ Here is a list of deliverables for *Sunday, May 9, 2021* and their assigned repo
 ### Segment IV: Put It All Together
 
 ### Self-Assessment
->>>>>>> edb68c76df9ba900fb8c3abe1985a947909a9858
+
+
