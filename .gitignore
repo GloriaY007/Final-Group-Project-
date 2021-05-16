@@ -3,6 +3,7 @@ AWS_Password
 __pycache__/
 *.py[cod]
 *$py.class
+Communication_Plan.txt
 
 # C extensions
 *.so
