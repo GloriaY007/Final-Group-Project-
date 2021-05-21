@@ -176,9 +176,11 @@ Here is a list of deliverables for *Sunday, May 9, 2021* and their assigned repo
 
 ## Summary & Conclusions
 * **What features contribute to happiness?**
+
 The life expectancy at birth and the GDP of a country have the largest impact on the happiness score of a country.
 
 * **Can we predict the happiness score of a country?**
+
 We were able to predict the happiness score of a country with nearly 72% accuracy (using 2015 data to train, 2016 predicted).
 
 ![be_happy_image](https://github.com/GloriaY007/Happiness/blob/main/Resources/be_happy_image.png)
