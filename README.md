@@ -1,11 +1,39 @@
-#### Description of the source of data
-The main dataset being used is a collection of data from the [World Happiness Report](https://www.kaggle.com/unsdsn/world-happiness). It is a landmark survey of the state of global happiness. The data set has a collection of indicators on more than **140 countries** around the world including happiness rank, happiness score on a scale of 0 to 10, standard error, and more… The data set includes reports from 2015 to 2019. 
+# World Happiness Project
 
-We will also be using the [World Bank Life Expectancy](https://data.worldbank.org/indicator/SP.DYN.LE00.IN) data set and the [Human Freedom Index](https://www.kaggle.com/gsutters/the-human-freedom-index), to compare against (for the years that align with our main data set). 
+## Questions to Answer
+* What features influence happiness within a country?
+* Can we predict the happiness score of a country?
 
-#### Questions they hope to answer with the data
-We want to find which factors influence happiness within a country and we would also like to foind out how to predict the happiness scores, if it is at all possible to do so.
+## Data Sources
+* **[World Happiness Report](https://www.kaggle.com/unsdsn/world-happiness)**
+The World Happiness Report is a landmark survey of the state of global happiness. The dataset has a collection of indicators on more than **140 countries** around the world including happiness rank, happiness score on a scale of 0 to 10, standard error and more. The data set includes reports from 2015 to 2019, of which we used 2015 and 2016 data.
+* **[World Bank Life Expectancy](https://data.worldbank.org/indicator/SP.DYN.LE00.IN)**
+World Bank dataset of life expectancy at birth from 263 countries from 1960-2019.
+* **[Human Freedom Index](https://www.kaggle.com/gsutters/the-human-freedom-index)**
+The Human Freedom Index is a dataset of 79 factors of personal and economic freedom from countries around the world.
 
+## Technology Used
+### Data Cleaning and Analysis
+* Python
+* Pandas
+* Jupyter Notebook
+* Google Colab
+* Matplotlib
+
+### Database Storage
+* PostgreSQL
+* pgAdmin (as an interface to query the data)
+* psycopg2 - connect Python with Postgres
+* AWS
+
+### Machine Learning
+* SciKitLearn - machine learning library to create a linear regression machine learning model
+
+### Dashboard
+* Tableau - to create a dashboard to display the results of our analysis
+* GitHub - ReadMe and files for project
+
+## Team Processes & Decisions
 ### Decision Log
 
 A decision will also be used and updated, to showcase and record point of consensus:
@@ -23,8 +51,7 @@ A decision will also be used and updated, to showcase and record point of consen
 | 29 Apr 21  | Modified Final_Project Machine_Learning Mock_up.ipynb file to connect to database |
 | 09 May 21  | Completed most deliverables and focusing on presentation. Need to control main branch submissions |
 
-
-#### Risk and Issue Management
+### Risk and Issue Management
 
 This team recognize that risk and issue may arise trough the course of our collaboration. The team has listed below potential problems that might arise during the project, their causes, symptoms, consequences, and possible solutions.
 
@@ -51,27 +78,12 @@ Here is a list of deliverables for *Sunday, April 25, 2021* and their assigned r
 - [x] Exploratory data analysis by @assaci
 - [x] Mockup of machine learning by @lynnokang
 
-#### Technology to be used:
-##### Data Cleaning and Analysis
-Pandas will be used to clean the data and perform an exploratory analysis. Further analysis will be completed using Python. Matplotlib will be used to visualize the results of our analysis. Jupyter notebook will be used throughout as the platform for analysis.
+### Exploratory Data Analysis (ERD)
 
-##### Database Storage
-PostgreSQL is the database we will use to store our data and pgAdmin will be used as an interface to query the data. The module psycopg2 will be used to connect Python with Postgres.
-
-##### Machine Learning
-SciKitLearn is the machine library we'll be using to create a classifier. We plan on using a linear regression model and either ridge regression or lasso regression. Our train-test-split will follow the default standard of 75% of the data for training and 25% for testing.
-
-##### Dashboard
-Tableau will be used to create a dashboard to display the results of our analysis. A ReadMe on GitHub will also be kept updated with all text and visuals throughout the project.
-
-
-#### Exploratory Data Analysis (ERD)
-
-##### ERD
-
+#### Entity Relationship Diagram (ERD)
 ![ERD](https://github.com/GloriaY007/Final-Group-Project-/blob/Assitan_C/ScreenShots/ERD.png?raw=true)
 
-##### Database Storage Set Up 
+#### Database Storage Set Up 
 PostgreSQL will be used for database storage. 
 - Happiness RDS instance was already set up in ASW.The database was made public so everyone can have access.
 - A new server happiness and a database Final_ Project were created on PostgreSQL. 
@@ -86,12 +98,8 @@ We will use PSYCOPG2  as PostgresSQL adapter to test connectivity with Python.
 
 ![Connection_string](https://github.com/GloriaY007/Final-Group-Project-/blob/Assitan_C/ScreenShots/Connection_string.PNG?raw=true)
 
-### Database Interface
+#### Database Interface
 For our analysis, we will be using 3 different dataset from World Happiness, Freedom and Life Expectancy reports. The dataset will be loaded as csv files in Python. We will create 3 different dataframes : Happiness, Freedom and Life Expectancy, then merge them into one single dataframe. We will clean and preprocess the new dataframe then create our machine learning model for training.  
-
-#### Mockup of machine learning
-
-The team also collectively answered questions regarding the ***Presentation*** (see above). 
 
 ### Segment II: Build the Pieces
 
@@ -107,40 +115,41 @@ Here is a list of deliverables for *Sunday, May 2, 2021* and their assigned repo
 - [x] Outlining and beginning the work on a dashboard to house your final project. Checking and testing the work completed against the rubric by @assaci
 - [x] Transforming of the mockup database into a full database that integrates with our work by @lynnokang
 
-### Machine Learning Model Descriptions
+#### Machine Learning Model Descriptions
 
-#### Description of the preliminary data preprocessing
+##### Description of the preliminary data preprocessing
 Prior to developing the machine learning model, the data from all three datasets (Happiness, Freedom, and Life-Expectancy) was cleaned by using Pandas to drop NaNs, duplicates, and unnecessary columns and the dataframes were merged to create one final dataframe. The datatypes of columns were also changed to be input in the machine learning model and the data was split by year into 2015 and 2016 dataframes. To pre-process the data for the machine learning model, Scikit-Learn was used to define the features and target sets and to scale the data with StandardScaler.
 
-#### Description of preliminary feature engineering and preliminary feature selection
+##### Description of preliminary feature engineering and preliminary feature selection
 The target, y, is meant to be the output that the machine learning model will try to predict. For this project, happiness score was selected as the target and was created by using just that column from our final dataframe. The features for our machine learning model were selected by dropping the year and all columns from the happiness dataset and using all  the other columns as features, specifically from the Life Expectancy and freedom datasets. Some trial and error was done to select features with different levels of correlation with the target, but the best results came from using all columns other than those originally used to determine the happiness score in the happiness dataset.
 
-#### Description of how data was split into training and testing sets
+##### Description of how data was split into training and testing sets
 The data was split into training and testing sets by using the 2015 data as the training data and testing on the 2016 data. These dataframes were split by year from the original merged dataframe. This method produced a much higher accuracy score compared to using Scikit-Learn's train_test_split on the whole merged dataset.
 
-#### Explanation of model choice, including limitations and benefits.
+##### Explanation of model choice, including limitations and benefits.
 For our data, our group chose to use a supervised linear regression machine learning model to predict the happiness score of a country based on the features in the dataset. The benefits of using a linear regression model are that it will be able to predict the happiness score, a continuous variable,  based on the features of the data. A limitation of the linear regression model is that is assumes a linear relationship between the features and target and could miss some outliers or actual results that are not directly correlated.
 
-#### Model Training
+##### Model Training
 The training for the linear regression model was conducted using the 2015 data, with the features selected as described above, to train the model to be tested with the 2016 data. Future iterations of training the model can be done by changing the training parameters and/or changing the model features to include different columns, such as those with a high correlation to the happiness score.
 
-#### Description of Current Accuracy Score
+##### Description of Current Accuracy Score
 Our machine learning model uses the sklearn r2_score, coefficient of determination, to assess the accuracy of the model. The current r2 score is 71.7%, which reveals that nearly 72% of the predicted data fits the linear regression model. This current accuracy score can be improved upon but is fairly accurate, especially compared to alternate models that were tested using sklearn's train-test-split and received accuracy scores of under 45%.
 
-### Dashboard
+
+#### Dashboard
 
 We will be using Tableau to create a storyboard of a dashboard to display data findings. For our analysis we are currently working with 3 different datasets from 2015 and 2016: World Happiness Report, Human Freedom Index, and Life expectancy Report. We've already merged the dataset into a dataframe in Pandas. The Dataframe was exported as a CSV file then loaded to Tableau Public. 
 
-#### Storyboard
+##### Storyboard
 
-#### Happiness Score Per Country
+###### Happiness Score Per Country
 
 Our merged dataset includes countries from 2015 and 2016. In addition, the countries are classified into regions. For our storyboard, we've already created an interactive world map that can be filtered on the country name, year, region, and happiness score. 
 
 ![Happiness_Map](https://github.com/GloriaY007/Final-Group-Project-/blob/Segment_2_Assitan_X/Happiness_Map.PNG?raw=true)
 
 
-#### 10 happiest Countries and 10 least happiest countries 
+###### 10 happiest Countries and 10 least happiest countries 
 
 We will create 2 charts to show the 10 happiest and least happiest countries for both 2015 and 2016. 
 
@@ -149,7 +158,7 @@ We will create 2 charts to show the 10 happiest and least happiest countries for
 
 ![Least_Happiest](https://github.com/GloriaY007/Final-Group-Project-/blob/Segment_2_Assitan_X/Least_Happiest.PNG?raw=true)
 
-#### Correlation between data (still working on the chart)
+###### Correlation between data (still working on the chart)
 
 We will create a chart to show the correlation between data and see which data has more impact on happiness score.
 (Happiness score, economy_gdp_per_capita, family, health_life_expectancy,	freedom,	trust_government_corruption, generosity, pf_movement,	pf_religion,	pf_association,	pf_expression	pf_identity	pf_score,	ef_government,	ef_legal	and ef_money)
@@ -165,10 +174,11 @@ Here is a list of deliverables for *Sunday, May 9, 2021* and their assigned repo
 - [x] Create a dashboard to display your findings by @assaci
 - [x] Perform a quality assurance check on project deliverables against rubric requirements, and test the code by @lynnokang
 
-## Draft Presentation
+## Summary & Conclusions
+* **What features contribute to happiness?**
+The life expectancy at birth and the GDP of a country have the largest impact on the happiness score of a country.
 
+* **Can we predict the happiness score of a country?**
+We were able to predict the happiness score of a country with nearly 72% accuracy (using 2015 data to train, 2016 predicted).
 
-
-### Segment IV: Put It All Together
-
-### Self-Assessment
+![be_happy_image](https://github.com/GloriaY007/Happiness/blob/main/Resources/be_happy_image.png)
