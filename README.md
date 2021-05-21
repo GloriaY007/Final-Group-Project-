@@ -6,15 +6,12 @@
 
 ## Data Sources
 * **[World Happiness Report](https://www.kaggle.com/unsdsn/world-happiness)**
-
 The World Happiness Report is a landmark survey of the state of global happiness. The dataset has a collection of indicators on more than **140 countries** around the world including happiness rank, happiness score on a scale of 0 to 10, standard error and more. The data set includes reports from 2015 to 2019, of which we used 2015 and 2016 data.
 
 * **[World Bank Life Expectancy](https://data.worldbank.org/indicator/SP.DYN.LE00.IN)**
-
 World Bank dataset of life expectancy at birth from 263 countries from 1960-2019.
 
 * **[Human Freedom Index](https://www.kaggle.com/gsutters/the-human-freedom-index)**
-
 The Human Freedom Index is a dataset of 79 factors of personal and economic freedom from countries around the world.
 
 ## Technology Used
